@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Menu</title>
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <!-- styles -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="hero">
+      <img src="https://cdn0.woolworths.media/content/content/nemo-1492-header-logo.png" class="hero-image" alt="Recipe Cards Page Banner Image">
+    </div>
+    <section class="menu">
+       <!-- title -->
+       <div class="title">
+        <h1 class="heading">Healthier recipes for you.</h1>
+        <h2 class="sub-heading">Put a healthier twist on your favourite seasonal dishes.</h2>
+      </div>
+      <!-- Nav -->
+      <nav class="navbar">
+        <button type="button" class="btn btn-primary" id="cart">Page B</button>
+      </nav>
+      <div class="title">
+        <h2>Recipe Cards Menu</h2>
+        <div class="underline"></div>
+      </div>
+      <!-- filter buttons -->
+      <div class="btn-container">
+      </div>
+      <!-- menu items -->
+      <div id="cart-products">
+        <div id="template-product">
+          <div class="section-center"></div>
+        </div>
+      </div>
+      <!--  cart modal  -->
+    <div class="cart-modal-overlay" id="cart-items">
+      <div class="cart-modal" id="template-cart">
+        <button class="close-btn"><i class="fas fa-times"></i></button>
+        <h1 class="cart-is-empty">Cart is empty</h1>
+        <div class="product-rows">
+        </div>
+      </div>
+    </div>
+    <!--   end of cart modal -->
+    </section>
+    <!-- javascript -->
+    <script src="app.js"></script>
+  </body>
+</html>
