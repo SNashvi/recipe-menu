@@ -306,7 +306,7 @@ Menu
 .filter-btn {
   background: transparent;
   border-color: var(--clr-green);
-  font-size: 1rem;
+  font-size: .68rem;
   text-transform: capitalize;
   margin: 0 0.5rem;
   letter-spacing: 1px;
@@ -368,6 +368,9 @@ Menu
   }
   .photo {
     height: 175px;
+  }
+  .filter-btn {
+    font-size: 1rem;
   }
 }
 @media screen and (min-width: 1200px) {
